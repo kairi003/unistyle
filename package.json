@@ -1,0 +1,14 @@
+{
+  "name": "unistyle",
+  "version": "1.0.0",
+  "description": "unistyle is a browser extension that converts selected text into various styles, based on PlainStyle (by shapoco).",
+  "license": "MIT",
+  "author": "kairi003",
+  "scripts": {
+    "fetch": "curl -O https://www.shapoco.net/plainstyle/plainstyle_rev2.js",
+    "postinstall": "npm run fetch"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.1.38"
+  }
+}
