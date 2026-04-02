@@ -16,14 +16,15 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-  const match = info.menuItemId.match(/^style\[(-?\d+)\]$/);
+  const { frameId, menuItemId, selectionText } = info;
+  const match = `${menuItemId}`.match(/^style\[(-?\d+)\]$/);
   if (!match) return;
-  const srcText = info.selectionText ?? '';
+  const srcText = selectionText ?? '';
   const index = parseInt(match[1]);
   const style = fontList[index] ?? null;
   const dstText = new StyledString(srcText, style).toString();
   chrome.scripting.executeScript({
-    target: { tabId: tab.id },
+    target: { tabId: tab?.id, frameIds: frameId && [frameId] },
     function: (styledText) => {
       const selection = window.getSelection();
       if (selection.rangeCount > 0) document.execCommand('insertText', false, styledText);
