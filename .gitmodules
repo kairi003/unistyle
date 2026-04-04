@@ -1,0 +1,3 @@
+[submodule "plainstyle-core"]
+	path = plainstyle-core
+	url = https://github.com/shapoco/plainstyle-core.git

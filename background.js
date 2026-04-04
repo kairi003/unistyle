@@ -24,7 +24,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   const style = fontList[index] ?? null;
   const dstText = new StyledString(srcText, style).toString();
   chrome.scripting.executeScript({
-    target: { tabId: tab?.id, frameIds: frameId && [frameId] },
+    target: { tabId: tab?.id, frameIds: frameId !== undefined ? [frameId] : undefined},
     function: (styledText) => {
       const selection = window.getSelection();
       if (selection.rangeCount > 0) document.execCommand('insertText', false, styledText);
