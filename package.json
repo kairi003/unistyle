@@ -4,7 +4,11 @@
   "description": "unistyle is a browser extension that converts selected text into various styles, based on PlainStyle (by shapoco).",
   "license": "MIT",
   "author": "kairi003",
-  "dependencies": {
-    "@types/chrome": "^0.1.38"
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.39",
+    "archiver": "^7.0.1"
   }
 }
