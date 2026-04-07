@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.9747768"
+     inkscape:cx="0"
+     inkscape:cy="44.424104"
+     inkscape:window-width="1539"
+     inkscape:window-height="1100"
+     inkscape:window-x="498"
+     inkscape:window-y="137"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#d5a6e4;fill-opacity:1;stroke:none;stroke-width:0.264626;stroke-linecap:round"
+       id="rect1"
+       width="12.7"
+       height="12.7"
+       x="0"
+       y="0"
+       ry="1.701919" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.5592px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.320969;stroke-linecap:round"
+       x="0.98404801"
+       y="7.5024371"
+       id="text1"
+       transform="scale(0.8822675,1.1334431)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:8.5592px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.320969"
+         x="0.98404801"
+         y="7.5024371">𝓤</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.41375px;font-family:Arial;-inkscape-font-specification:Arial;fill:#d3a8e0;fill-opacity:1;stroke:none;stroke-width:0.353015;stroke-linecap:round"
+       x="6.64045"
+       y="10.076644"
+       id="text2"
+       transform="scale(0.94331783,1.0600881)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.353015"
+         x="6.64045"
+         y="10.076644">𝕊</tspan></text>
+  </g>
+</svg>

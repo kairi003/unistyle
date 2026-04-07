@@ -3,8 +3,13 @@
   "name": "unistyle",
   "version": "1.0.1",
   "description": "unistyle is a browser extension that converts selected text into various styles, based on PlainStyle (by shapoco).",
-  "permissions": ["contextMenus", "scripting"],
-  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "/img/icon16.png",
+    "32": "/img/icon32.png",
+    "48": "/img/icon48.png",
+    "128": "/img/icon128.png"
+  },
+  "permissions": ["activeTab", "contextMenus", "scripting"],
   "background": {
     "service_worker": "background.js"
   }
